@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "trade_etl_run",
+            "type": "python",
+            "request": "launch",
+            "program": "D:/doc/workspace/ETL/TradeETL/trade_ETL_AWS/tradeETL/run.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": "D:/doc/workspace/ETL/TradeETL/trade_ETL_AWS/configs/trade-etl-report-config.yaml"
+        }
+    ]
+}
